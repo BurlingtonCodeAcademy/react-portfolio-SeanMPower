@@ -1,17 +1,15 @@
+/* ------------Top Level CSS------------ */
 #root {
   display: flex;
   padding: 0px;
   margin: 0px;
 }
 
-body {
-  padding: 0px;
-  margin: 0px;
-}
-
+/* ---------------Nav Bar CSS----------- */
 #nav-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 80px;
     height: 100vh;
     background-color: #131313; 
@@ -25,18 +23,17 @@ body {
   }
 
   #capitalS {
-    height: 90px;
+    height: 76px;
     font-size: 75px;
     color: aqua;
     text-shadow: 6px 0px 0px #e9345b; 
   }
 
   #small-name {
-    font-size: 17px;
+    font-size: 16px;
+    font-family: cabin, sans-serif;
     height: 25px;
     color: white;
-    position: relative;
-    top: 50px;
   }
 
   .links {
@@ -44,8 +41,8 @@ body {
   }
 
 
-
-  .main {
+/* ---------------Main Content-------------- */
+.main {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +60,7 @@ body {
   .three-box-main {
     height: 32vh;
     font-family: cabin, sans-serif;
+    padding-left: 30px;
   }
 
   #main-col2 {
