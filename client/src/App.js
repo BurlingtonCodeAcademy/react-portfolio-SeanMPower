@@ -8,8 +8,11 @@ class App extends React.Component {
     super(props);
 
     this.state = {
+      homeModal: true,
       aboutModal: false,
-      projectsModal: false
+      skillsModal: false,
+      projectsModal: false,
+      
     }
   }
   

@@ -9,20 +9,29 @@ function NavBar() {
       <div className="initialsBox" id="small-name">
         Sean
       </div>
-      <div className="links">
-        <div className="icon"><i class="fas fa-home"></i></div>
-        <div className="icon"><i class="far fa-user"></i></div>
-        <div className="icon"><i class="fas fa-cog"></i></div>
-        <div className="icon"><i class="fas fa-eye"></i></div>
-        <div className="icon"><i class="far fa-envelope"></i></div>
-      </div>
-      <div className="links">
-        <div className="icon"><i class="fab fa-github"></i></div>
+      <div className="links" id="internal-links">
         <div className="icon">
-          <i class="fab fa-twitter"></i>
+          <i class="fas fa-home"></i>
         </div>
         <div className="icon">
+          <i class="far fa-user"></i>
+        </div>
+        <div className="icon">
+          <i class="fas fa-eye"></i>
+        </div>
+        <div className="icon">
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+      <div className="links" id="outgoing-links">
+        <div className="icon">
           <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div className="icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <div className="icon">
+          <i class="fab fa-twitter"></i>
         </div>
       </div>
     </div>
