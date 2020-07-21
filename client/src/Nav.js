@@ -5,8 +5,8 @@ function NavBar() {
         <div id='nav-container'>
             <div className='initialsBox' id='capitalS'>S</div>
             <div className='initialsBox' id='small-name'>Sean</div>
-            <div className='links'>
-                
+            <div className='links' >
+            <i class="fas fa-eye"></i>
             </div>
             <div className='links'>
                 
