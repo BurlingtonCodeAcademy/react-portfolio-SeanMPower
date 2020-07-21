@@ -11,7 +11,7 @@ function Home() {
           <h1>
             Hi, I'm <span id="S">S</span>ean,
           </h1>
-          <h1>Web Developer.</h1>
+          <h1>Full Stack Web Developer.</h1>
         </div>
         <div className="three-box-main"></div>
         <div>

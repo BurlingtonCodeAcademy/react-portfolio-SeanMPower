@@ -7,79 +7,90 @@
 
 /* ---------------Nav Bar CSS----------- */
 #nav-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 80px;
-    height: 100vh;
-    background-color: #131313; 
-  }
-  
-  .initialsBox {
-    font-family: 'Roboto';
-    width: 100%;
-    background-color: black;
-    text-align: center;              
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 65px;
+  height: 100vh;
+  background-color: #131313;
+}
 
-  #capitalS {
-    height: 76px;
-    font-size: 75px;
-    color: aqua;
-    text-shadow: 6px 0px 0px #e9345b; 
-  }
+.initialsBox {
+  font-family: 'Roboto';
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
 
-  #small-name {
-    font-size: 16px;
-    font-family: cabin, sans-serif;
-    height: 25px;
-    color: white;
-  }
+#capitalS {
+  height: 60px;
+  font-size: 60px;
+  color: aqua;
+  text-shadow: 6px 0px 0px #e9345b;
+}
 
-  .links {
-    font-size: 24px;
-  }
+#small-name {
+  font-size: 16px;
+  font-family: cabin, sans-serif;
+  height: 25px;
+  color: white;
+}
 
+.links {
+  font-size: 24px;
+  text-align: center;
+  color: #555555;
+  height: 45vh;
+  padding-top: 220px;
+}
+
+.icon {
+  padding-top: 20px;
+}
+
+.icon:hover {
+  color: aqua;
+}
 
 /* ---------------Main Content-------------- */
 .main {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    width: 91vw;
-    height: 100vh;
-    background-color: #1d1b1b;
-    color: white;
-    font-family: Roboto;
-  }
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 91vw;
+  height: 100vh;
+  background-color: #1d1b1b;
+  color: white;
+  font-family: Roboto;
+}
 
-  #main-col1 {
-    height: 100vh;
-    width: 38vw;
-  }
-  .three-box-main {
-    height: 32vh;
-    font-family: cabin, sans-serif;
-    padding-left: 30px;
-  }
+#main-col1 {
+  height: 100vh;
+  width: 38vw;
+}
 
-  #main-col2 {
-    height: 90vh;
-    width: 21vw;
-  }
+.three-box-main {
+  height: 32vh;
+  font-family: cabin, sans-serif;
+  padding-left: 30px;
+}
 
-  #S {
-    color: #e9345b;
-    text-shadow: -2px -1px 0px aqua;
-  }
+#main-col2 {
+  height: 90vh;
+  width: 21vw;
+}
 
-  #largeS {
-    font-family: Roboto;
-    font-size: 770px;
-    color: #e9345b;
-    text-shadow: 60px 0px 0px aqua;
-    transform: rotate(-35deg);
-    align-items: flex-end;
-   
-  }
-  
+#S {
+  color: #e9345b;
+  text-shadow: -2px -1px 0px aqua;
+}
+
+#largeS {
+  font-family: Roboto;
+  font-size: 770px;
+  color: #e9345b;
+  text-shadow: 60px 0px 0px aqua;
+  transform: rotate(-35deg);
+  align-items: flex-end;
+
+}
