@@ -19,7 +19,7 @@ class App extends React.Component {
   goHome = (evt) => {
     evt.preventDefault()
 
-    this.setState = ({
+    this.setState  ({
       homeModal: true,
       aboutModal: false,
       projectsModal: false
@@ -29,7 +29,7 @@ class App extends React.Component {
   goAbout = (evt) => {
     evt.preventDefault()
 
-    this.setState = ({
+    this.setState  ({
       homeModal: false,
       aboutModal: true,
       projectsModal: false
@@ -39,7 +39,7 @@ class App extends React.Component {
   goProjects = (evt) => {
     evt.preventDefault()
 
-    this.setState = ({
+    this.setState  ({
       homeModal: false,
       aboutModal: false,
       projectsModal: true

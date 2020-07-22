@@ -7,7 +7,7 @@ function Projects(props) {
   <div>
       {modal ? (
       <div className="main" id="projectsPage">
-          <div id='project-header'><h1>Project Portfolio</h1></div>
+          <div id='project-header'><h1><span id="S">P</span>roject <span id="S">P</span>ortfolio</h1></div>
       </div>
       ) : null}
       </div>
