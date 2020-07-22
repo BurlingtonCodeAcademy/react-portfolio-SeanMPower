@@ -10,9 +10,9 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      homeModal: false,
+      homeModal: true,
       aboutModal: false,
-      projectsModal: true,
+      projectsModal: false,
     };
   }
 
