@@ -9,7 +9,7 @@ function Projects(props) {
         <div className="main" id="projectsPage">
           <div id="project-header">
             <h1>
-              <span id="S">P</span>roject <span id="S">P</span>ortfolio
+              <span className="cap-shadow">P</span>roject <span className="cap-shadow">P</span>ortfolio
             </h1>
           </div>
           <div className="project-thumb">

@@ -26,7 +26,7 @@
   height: 60px;
   font-size: 60px;
   color: aqua;
-  text-shadow: 6px 0px 0px #e9345b;
+  text-shadow: 6px 0px 0px #ff4e60;
 }
 
 #small-name {
@@ -49,7 +49,7 @@
 }
 
 .icon:hover {
-  color: aqua;
+  color: #45e2e4;
 }
 
 #outgoing-links {
@@ -65,8 +65,8 @@
   flex-wrap: wrap;
   width: 96vw;
   height: 100vh;
-  background-color: #1d1b1b;
-  color: white;
+  background-color: #1d1e3a;
+  color: #45e2e4;
   font-family: Roboto;
 }
 
@@ -88,16 +88,16 @@
   width: 21vw;
 }
 
-#S {
-  color: #e9345b;
-  text-shadow: -2px -1px 0px aqua;
+.cap-shadow {
+  color: #ff4e60;
+  text-shadow: -2px -1px 0px #45e2e4;
 }
 
 #largeS {
   font-family: Roboto;
   font-size: 770px;
-  color: #e9345b;
-  text-shadow: 60px 0px 0px aqua;
+  color: #ff4e60;
+  text-shadow: 60px 0px 0px #45e2e4;
   transform: rotate(-35deg);
   align-items: flex-end;
 
