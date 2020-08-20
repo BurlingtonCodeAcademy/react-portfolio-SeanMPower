@@ -3,14 +3,14 @@ import React from "react";
 function NavBar(props) {
   return (
     <div id="nav-container">
-      <div className="initialsBox" id="capitalS">
+      <div className="initialsBox" id="capitalS">   {/* Top left corner S */}
         S
       </div>
       <div className="initialsBox" id="small-name">
         Sean
       </div>
       <div className="links" id="internal-links">
-        {props.homeModal ? (
+         {props.homeModal ? (    /* If Home is current page, highlight icon in aqua */
           <div className="icon" id="home">
             <i
               class="fas fa-home"
@@ -29,7 +29,7 @@ function NavBar(props) {
           </div>
         )}
 
-        {props.aboutModal ? (
+        {props.aboutModal ? (     /* If About is current page, highlight icon in aqua */ 
           <div className="icon" id="about">
             <i
               class="far fa-user"
@@ -48,7 +48,7 @@ function NavBar(props) {
           </div>
         )}
 
-        {props.projectsModal ? (
+        {props.projectsModal ? (      /* If Projects is current page, highlight icon in aqua */
           <div className="icon" id="works">
             {" "}
             <i

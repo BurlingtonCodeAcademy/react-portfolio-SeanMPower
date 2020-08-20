@@ -9,14 +9,14 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
+    this.state = {        /* Manages viewable component through modals */
       homeModal: true,
       aboutModal: false,
       projectsModal: false,
     };
   }
 
-  goHome = (evt) => {
+  goHome = (evt) => {     /* Makes Home the active modal */
     evt.preventDefault()
 
     this.setState  ({
@@ -26,7 +26,7 @@ class App extends React.Component {
     })
   }
 
-  goAbout = (evt) => {
+  goAbout = (evt) => {   /* Makes About the active modal */
     evt.preventDefault()
 
     this.setState  ({
@@ -36,7 +36,7 @@ class App extends React.Component {
     })
   }
 
-  goProjects = (evt) => {
+  goProjects = (evt) => { /* Makes Projects the active modal */
     evt.preventDefault()
 
     this.setState  ({
@@ -49,7 +49,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <NavBar
+        <NavBar             /* NavBar has access to state for changing all modals through parent methods */
           homeModal={this.state.homeModal}
           aboutModal={this.state.aboutModal}
           projectsModal={this.state.projectsModal}
