@@ -18,7 +18,7 @@ function Projects(props) {
             <img
               src="/img/tic-tac-thumb.png"
               alt="Tic-Tac-Toe Thumb"
-              style={{ width: "200px", height: "200px" }}
+              style={{ width: "280px", height: "200px" }}
             />
             <br></br>
             <br />A collaborative effort with Christian Dow. We created a
@@ -32,7 +32,7 @@ function Projects(props) {
             <img
               src="/img/yelpington-thumb.png"
               alt="Yelpington Thumb"
-              style={{ width: "200px", height: "200px" }}
+              style={{ width: "280px", height: "200px" }}
             />
             <br />
             <br />A simple mock-up of a Yelp-inspired site for local Burlington
@@ -45,7 +45,7 @@ function Projects(props) {
             <img
               src="/img/zorkington-thumb.png"
               alt="Zorkington Thumb"
-              style={{ width: "200px", height: "200px" }}
+              style={{ width: "280px", height: "200px" }}
             />
             <br />
             <br />
@@ -55,7 +55,22 @@ function Projects(props) {
             taught us LOTS about Node.js, working with objects and arrays and
             coding for the terminal.
           </div>
-          <div className="project-thumb"> </div>
+          <div className="project-thumb">
+            <h2>VSAC Capstone Project</h2>
+            <br />
+            <img
+              src="/img/capstone.png"
+              alt="Capstone Thumb"
+              style={{ width: "280px", height: "200px" }}
+            />
+            <br />
+            <br />
+            VSAC desired a database application that could serve as a
+            central access point for VSAC counselors and prospective students
+            seeking information about certificate and training programs available
+            to Vermonters. Full stack MERN application. 
+            Project teammates: Mila Carranza and Gabe Sequeira-Bacher
+          </div>
           <div className="project-thumb"> </div>
           <div className="project-thumb"> </div>
         </div>
