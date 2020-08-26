@@ -74,7 +74,7 @@ function NavBar(props) {
       </div>
       <div className="links" id="outgoing-links">
         <div className="icon" id="linkedIn">
-          <a href="https://www.linkedin.com/in/sean-power-99777115a/">
+          <a href="https://www.linkedin.com/in/seanpower22/">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </div>

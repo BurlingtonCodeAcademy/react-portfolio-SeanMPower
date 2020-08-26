@@ -13,6 +13,22 @@ function Projects(props) {
             </h1>
           </div>
           <div className="project-thumb">
+            <h2>VSAC Capstone Project</h2>
+            <br />
+            <img
+              src="/img/capstone.png"
+              alt="Capstone Thumb"
+              style={{ width: "280px", height: "200px" }}
+            />
+            <br />
+            <br />
+            VSAC desired a database application that could serve as a
+            central access point for VSAC counselors and prospective students
+            seeking information about certificate and training programs available
+            to Vermonters. Full stack MERN application. 
+            Project teammates: Mila Carranza and Gabe Sequeira-Bacher
+          </div>
+          <div className="project-thumb">
             <h2>Tic-Tac-Toe</h2>
             <br />
             <img
@@ -37,7 +53,7 @@ function Projects(props) {
             <br />
             <br />A simple mock-up of a Yelp-inspired site for local Burlington
             restaurants that pulls in lat/long data from an API and places
-            markers using a map API. In this case, MapBox.
+            markers using a map API; In this case, MapBox.
           </div>
           <div className="project-thumb">
             <h2>Zorkington</h2>
@@ -55,22 +71,7 @@ function Projects(props) {
             taught us LOTS about Node.js, working with objects and arrays and
             coding for the terminal.
           </div>
-          <div className="project-thumb">
-            <h2>VSAC Capstone Project</h2>
-            <br />
-            <img
-              src="/img/capstone.png"
-              alt="Capstone Thumb"
-              style={{ width: "280px", height: "200px" }}
-            />
-            <br />
-            <br />
-            VSAC desired a database application that could serve as a
-            central access point for VSAC counselors and prospective students
-            seeking information about certificate and training programs available
-            to Vermonters. Full stack MERN application. 
-            Project teammates: Mila Carranza and Gabe Sequeira-Bacher
-          </div>
+          
           <div className="project-thumb"> </div>
           <div className="project-thumb"> </div>
         </div>
