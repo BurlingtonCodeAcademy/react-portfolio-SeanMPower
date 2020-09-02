@@ -9,11 +9,15 @@ function Projects(props) {
         <div className="main" id="projectsPage">
           <div id="project-header">
             <h1>
-              <span className="cap-shadow">P</span>roject <span className="cap-shadow">P</span>ortfolio
+              <span className="cap-shadow">P</span>roject{" "}
+              <span className="cap-shadow">P</span>ortfolio
             </h1>
           </div>
           <div className="project-thumb">
             <h2>VSAC Capstone Project</h2>
+            <a href="https://github.com/SeanMPower/BCA-VSAC-Capstone">
+              <i class="fab fa-github"></i>
+            </a>
             <br />
             <img
               src="/img/capstone.png"
@@ -22,14 +26,17 @@ function Projects(props) {
             />
             <br />
             <br />
-            VSAC desired a database application that could serve as a
-            central access point for VSAC counselors and prospective students
-            seeking information about certificate and training programs available
-            to Vermonters. Full stack MERN application. 
-            Project teammates: Mila Carranza and Gabe Sequeira-Bacher
+            VSAC desired a database application that could serve as a central
+            access point for VSAC counselors and prospective students seeking
+            information about certificate and training programs available to
+            Vermonters. Full stack MERN application. Project teammates: Mila
+            Carranza and Gabe Sequeira-Bacher
           </div>
           <div className="project-thumb">
             <h2>Tic-Tac-Toe</h2>
+            <a href="https://github.com/BurlingtonCodeAcademy/tic-tac-toe-sean-christian">
+              <i class="fab fa-github"></i>
+            </a>
             <br />
             <img
               src="/img/tic-tac-thumb.png"
@@ -44,6 +51,9 @@ function Projects(props) {
           </div>
           <div className="project-thumb">
             <h2>Yelpington</h2>
+            <a href="https://github.com/BurlingtonCodeAcademy/yelpington-SeanMPower">
+              <i class="fab fa-github"></i>
+            </a>
             <br />
             <img
               src="/img/yelpington-thumb.png"
@@ -57,6 +67,9 @@ function Projects(props) {
           </div>
           <div className="project-thumb">
             <h2>Zorkington</h2>
+            <a href="https://github.com/BurlingtonCodeAcademy/zorkington-sean-josh">
+              <i class="fab fa-github"></i>
+            </a>
             <br />
             <img
               src="/img/zorkington-thumb.png"
@@ -71,7 +84,7 @@ function Projects(props) {
             taught us LOTS about Node.js, working with objects and arrays and
             coding for the terminal.
           </div>
-          
+
           <div className="project-thumb"> </div>
           <div className="project-thumb"> </div>
         </div>

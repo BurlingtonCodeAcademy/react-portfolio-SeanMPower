@@ -24,7 +24,7 @@ function About(props) {
               style={{ width: "500px" }}
               id="profile-pic"
             />
-            <h5>When I'm not at my computer, you can find me spending time with my girlfriend and my dog, taking advantage of all the amazing outdoor activities that Vermont has to offer; hiking, kayaking, camping</h5>
+            {/* <h5>When I'm not at my computer, you can find me spending time with my girlfriend and my dog, taking advantage of all the amazing outdoor activities that Vermont has to offer; hiking, kayaking, camping</h5> */}
           </div>
         </div>
       ) : null}

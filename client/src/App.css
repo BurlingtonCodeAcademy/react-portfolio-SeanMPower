@@ -126,6 +126,10 @@
   font-size: 25px;
 }
 
+#projectsPage > h2 {
+  display: inline-block;
+}
+
 .project-thumb {
   padding: 10px;
   width: 31%;
