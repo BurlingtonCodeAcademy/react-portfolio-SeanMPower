@@ -1,9 +1,10 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import NavBar from "./Nav.js";
 import Home from "./Home.js";
 import About from "./About.js";
 import Projects from "./Projects.js";
+import Stars from "./Stars.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -57,6 +58,7 @@ class App extends React.Component {
           goAbout={this.goAbout}
           goProjects={this.goProjects}
         />
+        <Stars />
         <Home
           homeModal={this.state.homeModal}
         />
