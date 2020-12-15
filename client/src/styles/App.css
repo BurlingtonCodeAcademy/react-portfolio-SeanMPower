@@ -20,7 +20,6 @@
   width: 100%;
   background-color: black;
   text-align: center;
-  z-index: 2;
 }
 
 #capitalS {
@@ -101,7 +100,7 @@
   text-shadow: 60px 0px 0px #45e2e4;
   transform: rotate(-35deg);
   align-items: flex-end;
-
+  z-index: 2;
 }
 
 /* About Page CSS */
@@ -138,6 +137,7 @@
   justify-content: center;
   font-family: monospace;
   text-align: center;
+  z-index: 2;
 }
 
 .project-thumb > h2 {

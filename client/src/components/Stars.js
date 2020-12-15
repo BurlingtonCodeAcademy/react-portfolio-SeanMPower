@@ -1,5 +1,5 @@
 import React from 'react'
-import './stars.scss'
+import '../styles/stars.scss'
 
 function Stars(props) {
 

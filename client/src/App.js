@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.scss";
-import NavBar from "./Nav.js";
-import Home from "./Home.js";
-import About from "./About.js";
-import Projects from "./Projects.js";
-import Stars from "./Stars.js";
+import "./styles/App.css";
+import NavBar from "./components/Nav.js";
+import Home from "./components/Home.js";
+import About from "./components/About.js";
+import Projects from "./components/Projects.js";
+import Stars from "./components/Stars.js";
 
 class App extends React.Component {
   constructor(props) {
